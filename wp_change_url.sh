@@ -7,7 +7,7 @@ read -p "Enter mysql server (localhost, ip...): " SQL_SERVER
 read -p "Enter mysql database: " SQL_BDD
 read -p "Enter mysql database prefix: " SQL_BDD_PREFIX
 read -p "Enter mysql user: " SQL_USER
-read -sp "Enter mysql user pwd (coachCD1): " SQL_USER_PWD
+read -sp "Enter mysql user pwd: " SQL_USER_PWD
 
 #Find current wordpress url
 TABLE=$SQL_BDD_PREFIX
